@@ -20,26 +20,26 @@ if %version%==b1.7.4 goto launch_b174
 if %version%==b1.7.5 goto launch_b175
 if %version%==1.5.2 goto launch_152
 :launch_b173
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.3.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.3.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
 :launch_ab173
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\ab1.7.3.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\ab1.7.3.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
 :launch_a111
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\a1.1.1\a1.1.1.jar;%CD%\versions\a1.1.1\bin\jinput.jar;%CD%\versions\a1.1.1\bin\lwjgl.jar;%CD%\versions\a1.1.1\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\versions\a1.1.1\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\versions\a1.1.1\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\a1.1.1\a1.1.1.jar;%CD%\versions\a1.1.1\bin\jinput.jar;%CD%\versions\a1.1.1\bin\lwjgl.jar;%CD%\versions\a1.1.1\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\versions\a1.1.1\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\versions\a1.1.1\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
 :launch_b175
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.5.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.5.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
 :launch_152
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\1.5.2.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\1.5.2.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
 :launch_b174
-java -Dhttp.proxyHost=betacraft.pl -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.4.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
+java -Dhttp.proxyHost=betacraft.uk -Xmx1G -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.net.preferIPv4Stack=true -cp "%CD%\versions\b1.7.4.jar;%CD%\bin\jinput.jar;%CD%\bin\lwjgl.jar;%CD%\bin\lwjgl_util.jar" "-Dorg.lwjgl.librarypath=%CD%\bin\natives" "-Dnet.java.games.input.librarypath=%CD%\bin\natives" net.minecraft.client.Minecraft %Name%
 goto main
 :end
